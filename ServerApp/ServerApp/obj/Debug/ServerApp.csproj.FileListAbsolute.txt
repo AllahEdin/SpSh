@@ -1,0 +1,7 @@
+C:\Git\SpSh\ServerApp\ServerApp\bin\Debug\ServerApp.exe.config
+C:\Git\SpSh\ServerApp\ServerApp\bin\Debug\ServerApp.exe
+C:\Git\SpSh\ServerApp\ServerApp\bin\Debug\ServerApp.pdb
+C:\Git\SpSh\ServerApp\ServerApp\obj\Debug\ServerApp.csprojAssemblyReference.cache
+C:\Git\SpSh\ServerApp\ServerApp\obj\Debug\ServerApp.csproj.CoreCompileInputs.cache
+C:\Git\SpSh\ServerApp\ServerApp\obj\Debug\ServerApp.exe
+C:\Git\SpSh\ServerApp\ServerApp\obj\Debug\ServerApp.pdb

@@ -1,0 +1,7 @@
+C:\Git\SpSh\ClientApp\ClientApp\bin\Debug\ClientApp.exe.config
+C:\Git\SpSh\ClientApp\ClientApp\bin\Debug\ClientApp.exe
+C:\Git\SpSh\ClientApp\ClientApp\bin\Debug\ClientApp.pdb
+C:\Git\SpSh\ClientApp\ClientApp\obj\Debug\ClientApp.csprojAssemblyReference.cache
+C:\Git\SpSh\ClientApp\ClientApp\obj\Debug\ClientApp.csproj.CoreCompileInputs.cache
+C:\Git\SpSh\ClientApp\ClientApp\obj\Debug\ClientApp.exe
+C:\Git\SpSh\ClientApp\ClientApp\obj\Debug\ClientApp.pdb
