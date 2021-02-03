@@ -1,0 +1,6 @@
+C:\Git\SpSh\ClientApp\MessageLib\bin\Debug\MessageLib.dll
+C:\Git\SpSh\ClientApp\MessageLib\bin\Debug\MessageLib.pdb
+C:\Git\SpSh\ClientApp\MessageLib\obj\Debug\MessageLib.csprojAssemblyReference.cache
+C:\Git\SpSh\ClientApp\MessageLib\obj\Debug\MessageLib.csproj.CoreCompileInputs.cache
+C:\Git\SpSh\ClientApp\MessageLib\obj\Debug\MessageLib.dll
+C:\Git\SpSh\ClientApp\MessageLib\obj\Debug\MessageLib.pdb

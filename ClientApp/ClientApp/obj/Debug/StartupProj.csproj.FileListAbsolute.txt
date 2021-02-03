@@ -1,0 +1,14 @@
+C:\Git\SpSh\ClientApp\ClientApp\bin\Debug\ClientApp.exe.config
+C:\Git\SpSh\ClientApp\ClientApp\bin\Debug\ClientApp.exe
+C:\Git\SpSh\ClientApp\ClientApp\bin\Debug\ClientApp.pdb
+C:\Git\SpSh\ClientApp\ClientApp\bin\Debug\CalculationLib.dll
+C:\Git\SpSh\ClientApp\ClientApp\bin\Debug\MessageLib.dll
+C:\Git\SpSh\ClientApp\ClientApp\bin\Debug\Newtonsoft.Json.dll
+C:\Git\SpSh\ClientApp\ClientApp\bin\Debug\CalculationLib.pdb
+C:\Git\SpSh\ClientApp\ClientApp\bin\Debug\MessageLib.pdb
+C:\Git\SpSh\ClientApp\ClientApp\bin\Debug\Newtonsoft.Json.xml
+C:\Git\SpSh\ClientApp\ClientApp\obj\Debug\StartupProj.csprojAssemblyReference.cache
+C:\Git\SpSh\ClientApp\ClientApp\obj\Debug\StartupProj.csproj.CoreCompileInputs.cache
+C:\Git\SpSh\ClientApp\ClientApp\obj\Debug\StartupProj.csproj.CopyComplete
+C:\Git\SpSh\ClientApp\ClientApp\obj\Debug\ClientApp.exe
+C:\Git\SpSh\ClientApp\ClientApp\obj\Debug\ClientApp.pdb

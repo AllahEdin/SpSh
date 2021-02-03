@@ -1,0 +1,6 @@
+C:\Git\SpSh\ClientApp\CalculationLib\bin\Debug\CalculationLib.dll
+C:\Git\SpSh\ClientApp\CalculationLib\bin\Debug\CalculationLib.pdb
+C:\Git\SpSh\ClientApp\CalculationLib\obj\Debug\CalculationLib.csprojAssemblyReference.cache
+C:\Git\SpSh\ClientApp\CalculationLib\obj\Debug\CalculationLib.csproj.CoreCompileInputs.cache
+C:\Git\SpSh\ClientApp\CalculationLib\obj\Debug\CalculationLib.dll
+C:\Git\SpSh\ClientApp\CalculationLib\obj\Debug\CalculationLib.pdb

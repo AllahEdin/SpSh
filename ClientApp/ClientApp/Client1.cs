@@ -1,55 +1,65 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 using System.ComponentModel;
 using System.Net;
 using System.Net.Sockets;
 using System.Threading.Tasks;
+using ClientApp.States;
+using MessageLib.DTO;
+using Newtonsoft.Json;
 
 namespace ClientApp
 {
+	public delegate void EmptyDelegate();
+
 	public class Client1
 	{
 		private int _id = 0;
+
+		//private StateManager _stateManager;
 
 		private BackgroundWorker listenerWorker =
 			new BackgroundWorker();
 
 		private TcpClient _client;
 
+		private NetworkStream _stream;
+
+		public Queue<string> Messages { get; set; } =
+			new Queue<string>();
+
+		public event EmptyDelegate OnGotMessage;
+
 		public void Connect(string server)
 		{
 			try
 			{
-				// Create a TcpClient.
-				// Note, for this client to work you need to have a TcpServer
-				// connected to the same address as specified by the server, port
-				// combination.
 				Int32 port = 1010;
-				TcpClient client = new TcpClient(server, port);
+				_client = new TcpClient(server, port);
+				_stream = _client.GetStream();
 
+				Task.Run(ReceiveMessage);
 
+				//_stateManager =
+				//	new StateManager();
 
-				
+				var initState =
+					new InitialState( this);
 
-			
+				var healthCheck =
+					new HealthCheckState( this);
 
-				// Receive the TcpServer.response.
+				initState.NextState =
+					healthCheck;
 
-				// Buffer to store the response bytes.
-				data = new Byte[256];
+				healthCheck.NextState =
+					healthCheck;
 
-				// String to store the response ASCII representation.
-				String responseData = String.Empty;
+				//_stateManager.AddToQueue(initState);
 
-				// Read the first batch of the TcpServer response bytes.
-				Int32 bytes = stream.Read(data, 0, data.Length);
-				responseData = System.Text.Encoding.ASCII.GetString(data, 0, bytes);
+				initState.Start();
 
-				_id = Convert.ToInt32(responseData);
-
-				Console.WriteLine("Received: {0}", responseData);
-
-				// Close everything.
-				stream.Close();
 			}
 			catch (ArgumentNullException e)
 			{
@@ -61,21 +71,30 @@ namespace ClientApp
 			}
 
 			Console.WriteLine("\n Press Enter to continue...");
-			Console.Read();
 		}
 
-		private void SendMessage(string message)
+		public void SendMessage(MessageBase message)
 		{
-			Byte[] data = System.Text.Encoding.ASCII.GetBytes(message);
-			NetworkStream stream = client.GetStream();
-			stream.Write(data, 0, data.Length);
-
-			Console.WriteLine("Sent: {0}", message);
+			var sendData = JsonConvert.SerializeObject(message);
+			Byte[] data = System.Text.Encoding.ASCII.GetBytes(sendData);
+			_stream.Write(data, 0, data.Length);
+			Console.WriteLine("Client sent: {0}", sendData);
 		}
 
-		private async Task ReceiveMessage()
+		public void ReceiveMessage()
 		{
+			Byte[] data = new Byte[256];
 
+			int i;
+				while ((i = _stream.Read(data, 0, data.Length)) != 0)
+				{
+					//Int32 bytes = _stream.Read(data, 0, data.Length);
+					string dataStr = System.Text.Encoding.ASCII.GetString(data, 0, i);
+					Console.WriteLine("Client received: {0}", dataStr);
+					Messages.Enqueue(dataStr);
+					OnGotMessage?.Invoke();
+				}
+			
 		}
     }
 }
