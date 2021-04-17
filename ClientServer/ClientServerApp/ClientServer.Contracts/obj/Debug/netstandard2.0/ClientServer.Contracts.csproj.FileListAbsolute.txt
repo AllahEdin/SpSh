@@ -1,0 +1,9 @@
+C:\Git\SpSh\ClientServer\ClientServerApp\ClientServer.Contracts\bin\Debug\netstandard2.0\ClientServer.Contracts.deps.json
+C:\Git\SpSh\ClientServer\ClientServerApp\ClientServer.Contracts\bin\Debug\netstandard2.0\ClientServer.Contracts.dll
+C:\Git\SpSh\ClientServer\ClientServerApp\ClientServer.Contracts\bin\Debug\netstandard2.0\ClientServer.Contracts.pdb
+C:\Git\SpSh\ClientServer\ClientServerApp\ClientServer.Contracts\obj\Debug\netstandard2.0\ClientServer.Contracts.csprojAssemblyReference.cache
+C:\Git\SpSh\ClientServer\ClientServerApp\ClientServer.Contracts\obj\Debug\netstandard2.0\ClientServer.Contracts.AssemblyInfoInputs.cache
+C:\Git\SpSh\ClientServer\ClientServerApp\ClientServer.Contracts\obj\Debug\netstandard2.0\ClientServer.Contracts.AssemblyInfo.cs
+C:\Git\SpSh\ClientServer\ClientServerApp\ClientServer.Contracts\obj\Debug\netstandard2.0\ClientServer.Contracts.csproj.CoreCompileInputs.cache
+C:\Git\SpSh\ClientServer\ClientServerApp\ClientServer.Contracts\obj\Debug\netstandard2.0\ClientServer.Contracts.dll
+C:\Git\SpSh\ClientServer\ClientServerApp\ClientServer.Contracts\obj\Debug\netstandard2.0\ClientServer.Contracts.pdb

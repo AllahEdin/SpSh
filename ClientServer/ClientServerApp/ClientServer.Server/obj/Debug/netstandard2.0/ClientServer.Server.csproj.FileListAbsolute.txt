@@ -1,0 +1,12 @@
+C:\Git\SpSh\ClientServer\ClientServerApp\ClientServer.Server\bin\Debug\netstandard2.0\ClientServer.Server.deps.json
+C:\Git\SpSh\ClientServer\ClientServerApp\ClientServer.Server\bin\Debug\netstandard2.0\ClientServer.Server.dll
+C:\Git\SpSh\ClientServer\ClientServerApp\ClientServer.Server\bin\Debug\netstandard2.0\ClientServer.Server.pdb
+C:\Git\SpSh\ClientServer\ClientServerApp\ClientServer.Server\bin\Debug\netstandard2.0\ClientServer.Contracts.dll
+C:\Git\SpSh\ClientServer\ClientServerApp\ClientServer.Server\bin\Debug\netstandard2.0\ClientServer.Contracts.pdb
+C:\Git\SpSh\ClientServer\ClientServerApp\ClientServer.Server\obj\Debug\netstandard2.0\ClientServer.Server.csprojAssemblyReference.cache
+C:\Git\SpSh\ClientServer\ClientServerApp\ClientServer.Server\obj\Debug\netstandard2.0\ClientServer.Server.AssemblyInfoInputs.cache
+C:\Git\SpSh\ClientServer\ClientServerApp\ClientServer.Server\obj\Debug\netstandard2.0\ClientServer.Server.AssemblyInfo.cs
+C:\Git\SpSh\ClientServer\ClientServerApp\ClientServer.Server\obj\Debug\netstandard2.0\ClientServer.Server.csproj.CoreCompileInputs.cache
+C:\Git\SpSh\ClientServer\ClientServerApp\ClientServer.Server\obj\Debug\netstandard2.0\ClientServer.Server.csproj.CopyComplete
+C:\Git\SpSh\ClientServer\ClientServerApp\ClientServer.Server\obj\Debug\netstandard2.0\ClientServer.Server.dll
+C:\Git\SpSh\ClientServer\ClientServerApp\ClientServer.Server\obj\Debug\netstandard2.0\ClientServer.Server.pdb
